@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="image-container">
+        <img src="https://picsum.photos/600/600?random=1&grayscale" alt="Random Image 1">
+        <img src="https://picsum.photos/600/600?random=2&grayscale" alt="Random Image 2">
+        <img src="https://picsum.photos/600/600?random=3&grayscale" alt="Random Image 3">
+        <img src="https://picsum.photos/600/600?random=4&grayscale" alt="Random Image 4"> 
+    </div>
+
+    <!--  Ripple effect module -->
+    <script type="module">
+       import { Ripple3js } from './node_modules/ripple3js/index.js';
+
+window.addEventListener('load', () => {
+    Ripple3js();
+});
+    </script>
+    
+    
+</body>
+</html>
